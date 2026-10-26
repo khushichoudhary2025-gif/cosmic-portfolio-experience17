@@ -1,0 +1,63 @@
+// Edit this file to personalise the portfolio. All sections read from here.
+export const profile = {
+  name: "Khushi Choudhary",
+  initials: "KC",
+  tagline: "AI Engineer · Full Stack Developer · ML Enthusiast",
+  titles: ["AI Engineer", "Full Stack Developer", "ML Engineer", "Backend Developer", "Creator", "Builder"],
+  email: "khushi.choudhary@example.com",
+  phone: "+00 00000 00000",
+  location: "City, State",
+  resume: "#",
+  quote: "The best way to predict the future is to build it.",
+  about: [
+    "I design and build intelligent systems — from model training pipelines to the interfaces people touch.",
+    "I care about craft: fast software, honest UX, and AI that is useful rather than loud.",
+    "Currently exploring agentic systems, retrieval and real-time ML on the edge.",
+  ],
+  education: { college: "Your College", degree: "B.Tech, Computer Science", year: "2022 – 2026", cgpa: "9.0" },
+  stats: [
+    { value: 12, suffix: "+", label: "Projects shipped" },
+    { value: 3, suffix: "", label: "Internships" },
+    { value: 8, suffix: "", label: "Certifications" },
+    { value: 5, suffix: "", label: "Hackathon wins" },
+  ],
+  timeline: [
+    { year: "2022", text: "Began Computer Science degree" },
+    { year: "2023", text: "First ML model in production" },
+    { year: "2024", text: "Software engineering internship" },
+    { year: "2025", text: "Led an AI product team at a hackathon" },
+  ],
+  achievements: ["Winner — National AI Hackathon", "Top 1% on competitive coding platform", "Open-source contributor"],
+  skills: [
+    { name: "Python", color: "#7fb3ff", exp: "4 yrs", projects: 10, stack: "NumPy · Pandas · FastAPI", desc: "Primary language for ML and backend services." },
+    { name: "Machine Learning", color: "#9fe3ff", exp: "3 yrs", projects: 7, stack: "PyTorch · scikit-learn", desc: "Training, evaluating and deploying models." },
+    { name: "React", color: "#a8c5ff", exp: "3 yrs", projects: 9, stack: "Next · TanStack · R3F", desc: "Expressive, fast interfaces." },
+    { name: "TypeScript", color: "#c8d8ff", exp: "3 yrs", projects: 9, stack: "Node · tRPC · Zod", desc: "Type-safe full stack apps." },
+    { name: "Backend", color: "#b9f0e8", exp: "3 yrs", projects: 6, stack: "Postgres · Redis · Docker", desc: "APIs, queues and data that scale." },
+    { name: "LLMs", color: "#e3d6ff", exp: "2 yrs", projects: 5, stack: "RAG · Agents · Evals", desc: "Building with language models responsibly." },
+  ],
+  experience: [
+    { company: "Company One", role: "Software Engineer Intern", duration: "May 2025 – Aug 2025", desc: "Built internal ML tooling that cut model iteration time in half." },
+    { company: "Company Two", role: "Full Stack Intern", duration: "Dec 2024 – Feb 2025", desc: "Shipped customer dashboards used by thousands of people." },
+    { company: "Campus AI Club", role: "Lead", duration: "2023 – Present", desc: "Run workshops and mentor students on applied AI." },
+  ],
+  projects: [
+    { name: "Project One", desc: "An AI assistant that understands your documents and answers with sources.", stack: ["Python", "LangChain", "React", "Postgres"], github: "#", demo: "#" },
+    { name: "Project Two", desc: "Real-time vision system detecting objects on low-power devices.", stack: ["PyTorch", "ONNX", "FastAPI"], github: "#", demo: "#" },
+    { name: "Project Three", desc: "A collaborative platform with live editing and analytics.", stack: ["TypeScript", "Node", "Redis"], github: "#", demo: "#" },
+  ],
+  certifications: [
+    { name: "Deep Learning Specialization", issuer: "Coursera", year: "2024" },
+    { name: "Cloud Practitioner", issuer: "AWS", year: "2024" },
+    { name: "Machine Learning Engineer", issuer: "Google Cloud", year: "2025" },
+    { name: "Full Stack Development", issuer: "Meta", year: "2023" },
+  ],
+  socials: {
+    github: "https://github.com/",
+    linkedin: "https://linkedin.com/",
+    twitter: "https://twitter.com/",
+    instagram: "https://instagram.com/",
+    youtube: "https://youtube.com/",
+    medium: "https://medium.com/",
+  },
+};
